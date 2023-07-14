@@ -23,7 +23,7 @@ while (k <= 99)
 	putchar(' ');
 	putchar('0' + c / 10);
 	putchar('0' + c % 10);
-	if (c + k != 99 || c + k != 98)
+	if (c + k != 98 || c + k != 99)
 	{
 	putchar(',');
 	putchar(' ');
