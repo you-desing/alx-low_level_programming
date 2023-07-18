@@ -1,0 +1,24 @@
+#include "main.h"
+
+/**
+ * main - Entry point
+ *
+ * _putchar - Write caracter
+ *
+ * Description :_putchar - writes the string
+ *
+ * Return: On success 1.
+ *
+*/
+int print_last_digit(int n)
+{
+    int digit ;
+    if (n < 0)
+    {
+
+         digit =-(1)*n%10;
+         return (digit);
+    }
+    else
+        return (digit);
+}
