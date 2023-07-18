@@ -19,7 +19,7 @@ int main(void)
 
 	for (i = 0; i <= 8; i++)
 	{
-	_putchar(msg[i]);
+		_putchar(msg[i]);
 	}
 	return (0);
 }
