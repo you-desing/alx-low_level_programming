@@ -1,6 +1,6 @@
 #include <unistd.h>
 #include <string.h>
-#include "_putchar.h"
+#include "_putchar.c"
 /**
  * main - Entry point
  *
