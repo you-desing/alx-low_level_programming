@@ -1,23 +1,19 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
- * Description :the function prints 10 times the alphabet
- *
- * Return: Always 0 (Success)
+ * print_alphabet_x10 - prints 10 times the alphabet
  *
  */
 
-int main(void)
+void print_alphabet_x10(void)
 {
-	int i = 0;
+	int i = 0, c;
 
 	while (i < 10)
 	{
-	print_alphabet();
-	i++;
+		for (c = 'a'; c <= 'z'; c++)
+			_putchar(c);
+		i++;
 	}
-
-	return (0);
+	_putchar('\n');
 }
