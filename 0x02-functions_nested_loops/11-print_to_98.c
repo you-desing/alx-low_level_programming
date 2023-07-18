@@ -9,9 +9,9 @@
 
 void print_to_98(int n)
 {
-if (n <= 89)
+if (n < 89)
 {
-	while (n <= 98)
+	while (n < 98)
 	{
 	printf("%d ", n);
 	n++;
@@ -20,7 +20,7 @@ if (n <= 89)
 }
 else if (n >= 89)
 {
-	while (n >= 98)
+	while (n > 98)
 	{
 	printf("%d ", n);
 	n--;
