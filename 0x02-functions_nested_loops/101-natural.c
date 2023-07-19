@@ -19,6 +19,6 @@ int s = 0;
 		}
 	n++;
 	}
-	printf("%d \n", s);
+	printf("%d\n", s);
 	return (0);
 }
