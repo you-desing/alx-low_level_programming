@@ -14,7 +14,7 @@ unsigned long s, F0 = 0, F1 = 1;
 	while (n < 99)
 	{
 	s = F0 + F1;
-	printf("%lu\n", s);
+	printf("%lu", s);
 	if (n != 98)
 		printf(", ");
 	else
