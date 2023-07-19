@@ -23,6 +23,6 @@ float T;
 	F1 = s;
 	n++;
 	}
-	printf("%f\n", T);
+	printf("%0.f\n", T);
 	return (0);
 }
