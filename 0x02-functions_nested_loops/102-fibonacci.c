@@ -14,7 +14,7 @@ unsigned long s, F0 = 0, F1 = 1;
 	while (n < 50)
 	{
 	s = F0 + F1;
-	printf("%lu\n", s);
+	printf("%lu", s);
 	F0 = F1;
 	F1 = s;
 	if (n == 49)
