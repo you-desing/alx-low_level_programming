@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * print_square -  prints a triangle
+ * print_triangle -  prints a triangle
  *
  * @size: input the function
  *
 */
 
-void print_square(int size)
+void print_triangle(int size)
 {
 int i, j;
 
