@@ -17,4 +17,5 @@ len = strlen(str);
 	{
 		printf("%c", str[i]);
 	}
+printf("\n");
 }
