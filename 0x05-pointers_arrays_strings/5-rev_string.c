@@ -10,5 +10,4 @@
 void rev_string(char *s)
 {
 	strrev(s);
-	printf("\n");
 }
