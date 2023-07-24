@@ -13,7 +13,10 @@ int i;
 int len;
 
 len = strlen(str);
-	for (i = len / 2; i < len; i++)
+	for (i = 0; i < len; i++)
+		;
+	i++;
+	for (i = i / 2; i < len; i++)
 	{
 		printf("%c", str[i]);
 	}
