@@ -5,6 +5,8 @@
  *
  * @s: input the function
  *
+ * Return: returns number
+ *
 */
 
 int _atoi(char *s)
