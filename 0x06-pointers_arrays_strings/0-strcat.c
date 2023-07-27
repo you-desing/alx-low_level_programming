@@ -21,7 +21,7 @@ int i, j = 0;
 	}
 	for (i = 0; src[i]; i++)
 	{
-		dest[i++] = src[j];
+		dest[j++] = src[i];
 	}
 return (dest);
 }
