@@ -19,7 +19,7 @@ char *p;
 	{
 	for (i = 0; accept[i] != '\0'; i++)
 	{
-		if (accept[i] == s[j])
+		if (s[j] == accept[i])
 		{
 			p = &s[j];
 			return (p);
