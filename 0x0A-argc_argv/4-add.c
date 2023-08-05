@@ -23,12 +23,12 @@ int main(int argc, char *argv[])
 	{
 	for (i = 1; i < argc; i++)
 	{
-		if (*argv[i] >= 'A' && *argv[i] <= 'Z' || *argv[i] >= 'a' && *argv[i] <= 'z')
+		if (*argv[i] < 48 && *argv[i] > 57)
 		{
 			printf("Error\n");
 			return (1);
 		}
-		if (atoi(argv[i] > 0))
+		else
 			sum = sum + atoi(argv[i]);
 	}
 	printf("%d\n", sum);
