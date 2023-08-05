@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 	{
 	for (i = 1; i < argc; i++)
 	{
-		if (*argv[i] >= 65 && *argv[i] <= 90 || *argv[i] >= 97 && *argv[i] <= 122)
+		if (*argv[i] >= 'A' && *argv[i] <= 'Z' || *argv[i] >= 'a' && *argv[i] <= 'z')
 		{
 			printf("Error\n");
 			return (1);
