@@ -9,6 +9,8 @@
 
 void _puts(char *str)
 {
+int i;
 
-	puts(str);
+	for(i = 0; str[i] != '\0'; i++)
+		_putchar(str[i]);
 }
