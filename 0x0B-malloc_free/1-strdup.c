@@ -1,5 +1,6 @@
 #include "main.h"
 #include <string.h>
+#include <stdlib.h>
 /**
  * _strdup - print a copy of the string
  *
@@ -10,7 +11,7 @@
 */
 char *_strdup(char *str)
 {
-	int i;
+	unsigned int i;
 	char *ch;
 
 	if (strlen(str) != 0)
