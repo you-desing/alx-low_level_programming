@@ -11,12 +11,9 @@
 void *malloc_checked(unsigned int b)
 {
 	void *p;
-	int sv = 98;
 
 	p = (void *)malloc(b);
 	if (p == NULL)
 		exit(98);
-	if (b >= SIZE_MAX / sizeof(*p))
-		exit(1);
 	return (p);
 }
