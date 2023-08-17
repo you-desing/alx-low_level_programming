@@ -1,4 +1,4 @@
-#ifdef OPERA_H
+#ifndef OPERA_H
 #define OPERA_H
 #include <stdio.h>
 #include <string.h>
