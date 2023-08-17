@@ -1,7 +1,7 @@
 #ifndef OPERA_H
 #define OPERA_H
 #include <stdio.h>
-#include <string.h>
+#include <stdlib.h>
 /**
  * struct op - Struct op
  *
