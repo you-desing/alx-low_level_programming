@@ -9,7 +9,7 @@
  */
 int append_text_to_file(const char *filename, char *text_content)
 {
-	if (filename == NULL) 
+	if (filename == NULL)
 	{
 		return (-1);
 	}
@@ -19,7 +19,8 @@ int append_text_to_file(const char *filename, char *text_content)
 	}
 
 	FILE *file = fopen(filename, "a");
-	if (file == NULL) 
+
+	if (file == NULL)
 	{
 		return (-1);
 	}
